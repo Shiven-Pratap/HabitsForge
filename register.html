@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="icon" type="image/png" href="images/refresh.png">
+
+</head>
+<body>
+    <nav>
+        <div class="icon">
+            <span><img src="images/refresh.png" width="25px"></span>
+            <span>HabitForge</span>
+        </div>
+        <div class="shift-to-register">
+            <button onclick="shift_to_login()">Login</button>
+        </div>
+    </nav>
+    <main>
+        <form class="login-form" onsubmit="registerUser(event)">
+            <h2>Register</h2>
+            <div class="details">
+                <label for="phone">Phone-Number</label>
+                <input type="number" id="phone" placeholder="Phone-Number">
+                <label for="key">Password</label>
+                <input type="number" id="key" placeholder="Password">
+            </div>
+            <button type="submit">Register</button>
+        </form>
+    </main>
+    <script src="JS/auth.js"></script>
+</body>
+</html>
