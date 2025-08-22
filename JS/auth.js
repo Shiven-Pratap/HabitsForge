@@ -48,7 +48,7 @@ function loginUser(event){
         alert("Login Successful");
         localStorage.setItem("currentUser", phone);
 
-        window.location.href = "user_dashboard.html";
+        window.location.href = "index.html";
     }
     else if(users[phone]){
         alert("User not registered")
